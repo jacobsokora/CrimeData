@@ -37,7 +37,7 @@ namespace CrimeData
         {
             get 
             {
-                return ViolentCrime / (Population / 100000);
+                return ViolentCrime / Population;
             }
         }
 
@@ -50,7 +50,7 @@ namespace CrimeData
         {
             get
             {
-                return Murder / (Population / 100000);
+                return Murder / Population;
             }
         }
 
@@ -63,7 +63,7 @@ namespace CrimeData
         {
             get 
             {
-                return Rape / (Population / 100000);
+                return Rape / Population;
             }
         }
 
@@ -76,7 +76,7 @@ namespace CrimeData
         {
             get
             {
-                return Robbery / (Population / 100000);
+                return Robbery / Population;
             }
         }
 
@@ -89,7 +89,7 @@ namespace CrimeData
         {
             get
             {
-                return AggravatedAssault / (Population / 100000);
+                return AggravatedAssault / Population;
             }
         }
 
@@ -102,7 +102,7 @@ namespace CrimeData
         {
             get
             {
-                return PropertyCrime / (Population / 100000);
+                return PropertyCrime / Population;
             }
         }
 
@@ -115,7 +115,7 @@ namespace CrimeData
         {
             get
             {
-                return Burglary / (Population / 100000);
+                return Burglary / Population;
             }
         }
 
@@ -128,7 +128,7 @@ namespace CrimeData
         {
             get
             {
-                return Theft / (Population / 100000);
+                return Theft / Population;
             }
         }
 
@@ -141,7 +141,7 @@ namespace CrimeData
         {
             get
             {
-                return MotorTheft / (Population / 100000);
+                return MotorTheft / Population;
             }
         }
     }
